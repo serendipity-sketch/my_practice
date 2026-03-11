@@ -11,7 +11,7 @@ using namespace std;
 //    vector<int>::it// void Print(int val){
 //     cout<<val<<endl;
 // } 
-
+//字符只能在一行，同时手动加换行；
 
 // void test01(){
 //    vector<int> v;
@@ -78,7 +78,7 @@ void Print2(vector<int>v){
 //         cout<<*it<<" ";
 //     }
 // } 
-
+ 
 // void test01(){
 //     vector<int>v;
 //     for(int i=0;i<10;i++){
@@ -132,14 +132,20 @@ int main(){
     // cout<<"v2的大小"<<v2.size()<<endl;
     // cout<<"v2的容量"<<v2.capacity();
     vector<int>v;
-    int n=v.size();
-    int number,i=0,n;
-    while(cin>>number){
-        v.push_back(number);
-        i++;
-        if(number!= ' '){
-            break;
-        }
-    }
+   for(int i=0;i<6;i++){
+      v.push_back(i);
+   }
+   for(int x:v){
+    cout<<x<<" ";
+   }
+   puts("");
+   for(vector<int>::iterator it=v.begin();it!=v.end();it++){
+    cout<<*it<<" ";
+   }
+   puts("");
+   v.insert(v.begin()+1,111);
+     for(int x:v){
+    cout<<x<<" ";
+   } 
     
 } 

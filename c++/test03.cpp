@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 //交换
-template<class T>
+template<class T>  // 老人快学，以后内推我
 void myswap(T &a,T &b){
     T temp;
     temp =a;

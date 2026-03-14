@@ -1,7 +1,13 @@
+/**
+ * @author 佬
+ * @brief 给你跪了狠狠学
+ * 
+ */
+
 #include<iostream>
 using namespace std;
 template<class T>
-void swap(T &a,T &b){
+void swap(T &a,T &b){     
     T temp;
     temp =a;
     a=b;

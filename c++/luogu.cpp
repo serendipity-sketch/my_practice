@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(){ //佬这么会学？给你跪了Orz
+int main(){ 
     int N;
     cin>>N;
     if(N ==0){

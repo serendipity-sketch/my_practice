@@ -212,3 +212,19 @@ for(int i=0;i<10;i++){
    `cout<<one<<" "<<five<<" "<<ten;`
 
   `}`
+
+## 6.向上取整函数ceil();头文件是#include<cmath>
+
+## 7.算a/b，第n位小数的值
+
+`int a,b,c,n,d;`
+
+`for(int i=0;i<n;i++){`
+
+`c=a%b;`
+
+`d=c*10;`
+
+`}`
+
+`cout<<d;`

@@ -58,3 +58,26 @@ int main(){
 
     return 0;
 }
+
+//可以把一个数组内任意和，转换成这种思想
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+    int m,n;
+    cin>>m>>n;
+    vector<int>v(n);
+    for(int i=0;i<v.size();i++){
+        cin>>v[i];
+    }
+    int count=0;
+    for(int i=0;i<n;i++){
+        if(v[i]<=m){
+            m-=v[i];
+        }else{
+            count++;
+        }
+    }
+    cout<<count;
+    return 0;
+}

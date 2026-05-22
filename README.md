@@ -1,4 +1,7 @@
-  //P1307 [NOIP 2011 普及组] 数字反转
+## 冒泡排序
+
+```
+//P1307 [NOIP 2011 普及组] 数字反转
 //冒泡排序
   int main(){
     //deque<int>de;
@@ -25,10 +28,15 @@
     for(auto x:v){
         cout<<x<<" ";
     }
-
+    
     return 0;
-}
 
+}
+```
+
+## 选择排序
+
+```
 //选择排序
 #include <iostream>
 using namespace std;
@@ -57,8 +65,13 @@ int main(){
     }
 
     return 0;
-}
 
+}
+```
+
+## 数组求和思想
+
+```
 //可以把一个数组内任意和，转换成这种思想
 #include<iostream>
 #include<vector>
@@ -81,3 +94,4 @@ int main(){
     cout<<count;
     return 0;
 }
+```
